@@ -1,0 +1,379 @@
+#image
+{
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+
+img{
+  width: 500px; height: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:30px;
+  background-image: url("arriere-plan.jpg");
+  font-family: "Source Sans Pro";
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  margin-top: -37px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  background-color: #282A28;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu {
+  margin-right: 20px;
+  font-size: 15px;
+
+}
+
+.point {
+  margin-right: 20px;
+  font-size: 15px;
+  color: pink;
+
+}
+
+
+
+
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  margin-right: -20px;
+  margin-top: 20px;
+
+  padding-bottom: : -40px;
+
+
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 26.4%;
+  background-color: ;
+
+  margin-top: 20px;
+}
+
+/* image article */
+#imagearticle {
+
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.date {
+  font-style: italic;
+  color: grey;
+  text-align: right;
+  padding-right: 800px;
+}
+
+.article{
+
+
+  font-size: 18px;
+  color: #404040;
+  margin-left: 250px;
+  margin-top: -60px;
+
+}
+
+.title{
+  margin-left: 220px;
+  margin-top: -50px;
+  background-color: white;
+  position: relative;
+  padding: 30px;
+}
+
+
+.card {
+  background-color: white;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+
+
+.row
+{background-color: white;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+#book1 {
+
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#book2{
+  width: 100px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#book3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+button {
+
+  background-color:#515453;
+  color: white;
+  font-size: 15px;
+  padding: 13px;
+  margin-top: -0px;
+
+
+}
+.section {
+  border-top: 1px;
+  border-style: solid;
+  border-color: #C2C5C4;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+
+
+
+
+}
+
+.cardright{
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: white;
+  border-top: 1px;
+  border-style: solid;
+  border-color: #C2C5C4;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  flex: 50%;
+  margin-right: 20px;
+
+
+
+
+}
+
+
+
+.menu1
+{
+  border-top-style:  solid;
+  border-width: 1px;
+
+  font-size: 17px;
+  color: grey;
+  border-color: #C2C5C4;
+
+
+
+
+}
+
+
+
+.titlebottom{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 100px;
+
+
+}
+.mentionslegales
+{
+  font-size: 17px;
+  color: grey;}
+
+
+@media screen and (max-width: 1300px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  .article {
+    width: 100%;
+    padding: 20px;;
+    margin-left: 0px;
+    margin-top: 30px;
+    text-align: justify;
+
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  .title {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+
+
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .date {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: -30px;
+    text-align: center;
+
+
+
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  #imagearticle {
+    width: 106%;
+    height: 30%;
+    padding: 0px;
+
+
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  img
+  {
+
+      width: 320px;
+      height:300px;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+
+
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .titlebottom {
+
+    text-align: center;
+
+
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+
+    padding: 2px;
+
+
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  .menu{
+
+    text-align: center;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #C2C5C4;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: -70px;
+
+
+
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .point{
+
+    color: black;
+
+
+
+  }
+}
